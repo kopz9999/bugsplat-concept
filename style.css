@@ -971,7 +971,7 @@ section#themo_page_header_1{background-color:#009dd5;}
 
 .light-text .page-title h1 {
   font-weight: bold;
-  font-size: 45px;
+  font-size: 38px;
   line-height: 45px;
 }
 
@@ -990,7 +990,11 @@ section#themo_page_header_1{background-color:#009dd5;}
   padding: 10px 60px;
   border-radius: 20px;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 15px;
+}
+
+.page-title.centered {
+    padding: 60px 32%;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1010,8 +1014,4 @@ section#themo_page_header_1{background-color:#009dd5;}
 
 .navbar .navbar-nav > li.menu-sign-up-login > a {
   color: #266bae;
-}
-
-.page-title.centered {
-    padding: 60px 32%;
 }
