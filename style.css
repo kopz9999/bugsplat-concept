@@ -1072,3 +1072,28 @@ section#themo_page_header_1{background-color:#009dd5;}
   font-size: 50px;
   line-height: 50px;
 }
+
+#customers p {
+  font-size: 12px;
+}
+
+#customers .btn {
+  padding: 10px 60px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#vertical-image {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  #horizontal-image {
+    display: none;
+  }
+
+  #vertical-image {
+    display: block;
+  }
+}
