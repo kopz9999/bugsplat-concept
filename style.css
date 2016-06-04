@@ -1073,6 +1073,18 @@ section#themo_page_header_1{background-color:#009dd5;}
   line-height: 50px;
 }
 
+
+@media only screen and (max-width: 768px) {
+  .platform-arrow {
+    display: none;
+  }
+  .title-container h1 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+
 #customers p {
   font-size: 12px;
 }
