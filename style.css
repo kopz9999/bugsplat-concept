@@ -1,0 +1,1000 @@
+body,p{color:#404040 ;font-family:Raleway ;font-size:16px ;}
+.navbar-nav{color:#262626 ;font-family:Raleway ;font-size:18px ;}
+h1, h2, h3, h4, h5, h6{color:#262626 ;font-family:Raleway ;}
+
+/* Custom Color CSS #145fbd */
+#main-flex-slider .slides h1,.accent,.light-text .btn-ghost:hover,.light-text .googlemap a,.light-text .pricing-column.highlight .btn-ghost:hover,.light-text .pricing-column.highlight .btn-standard,.navbar .navbar-nav .dropdown-menu li a:hover,.navbar .navbar-nav .dropdown-menu li.active a,.navbar .navbar-nav .dropdown-menu li.active a:hover,.page-title h1,.panel-title i,.pricing-column.highlight .btn-ghost:hover,.pricing-column.highlight .btn-standard,.pricing-cost,.simple-cta span,.team-member-social a .soc-icon:hover,a{color:#145fbd}.footer .widget-title:after,.navbar .navbar-nav>li.active>a:after,.navbar .navbar-nav>li.active>a:focus:after,.navbar .navbar-nav>li.active>a:hover:after,.navbar .navbar-nav>li>a:hover:after{background-color:#145fbd}.accordion .accordion-btn .btn-ghost:hover,.btn-ghost:hover,.btn-standard,.circle-lrg-icon i,.circle-lrg-icon span,.light-text .pricing-table .btn-ghost:hover,.pager li>a:hover,.pager li>span:hover,.pricing-column.highlight{background-color:#145fbd;border-color:#145fbd}.accordion .accordion-btn .btn-ghost,.btn-ghost,.circle-lrg-icon i:hover,.circle-lrg-icon span:hover,.light-text .pricing-table .btn-ghost{color:#145fbd;border-color:#145fbd}.search-form input:focus,.widget select:focus,form input:focus,form select:focus,form textarea:focus{border-color:#145fbd!important}.circle-med-icon i,.circle-med-icon span,.frm_form_submit_style,.frm_form_submit_style:hover,.with_frm_style .frm_submit input[type=button],.with_frm_style .frm_submit input[type=button]:hover,.with_frm_style .frm_submit input[type=submit],.with_frm_style .frm_submit input[type=submit]:hover,.with_frm_style.frm_login_form input[type=submit],.with_frm_style.frm_login_form input[type=submit]:hover,form input[type=submit],form input[type=submit]:hover{background:#145fbd}.footer .tagcloud a:hover,.headhesive--clone .navbar-nav>li.active>a:after,.headhesive--clone .navbar-nav>li.active>a:focus:after,.headhesive--clone .navbar-nav>li.active>a:hover:after,.headhesive--clone .navbar-nav>li>a:hover:after,.search-submit,.search-submit:hover,.simple-conversion .with_frm_style input[type=submit],.simple-conversion .with_frm_style input[type=submit]:focus,.simple-conversion form input[type=submit],.simple-conversion form input[type=submit]:focus,.widget .tagcloud a:hover{background-color:#145fbd!important}.btn-cta{background-color:#04172a}
+.postid-14452 sup {
+    font-size: 50%;
+    color: #145fbd;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    /*Formatting of beta <sup> on unity doc page*/
+}
+
+.postid-14452 sup {
+    top: -0.8em;
+    /*Formatting of beta <sup> on unity doc page*/
+}
+
+pre {
+    white-space: normal;
+    word-break: keep-all;
+    /*Pre formatting - this stops the word breaking*/
+}
+
+.wpknb .breadcrumb {
+    Display: none;
+    /* padding: 4px 0 8px; */
+    /* background-color: transparent; */
+    /* remove annoying breadcrub above header on docs */
+}
+
+@media (min-width: 1399px) {
+
+.page-id-10373 .page-title.centered .page-title-h1 {
+    font-size: 3.3em;
+    line-height: 1.2;
+}
+
+.page-id-10373 .page-title.centered .page-title-h4 {
+    font-size: 1.3em;
+}
+
+.page-id-10373 section#themo_page_header_1 {
+    height: 75vh;
+}
+
+.page-id-10373 .page-title.centered {
+    padding: 167px 7%;
+}
+}
+
+.page-id-10373 section#themo_html_2:before {
+
+content: "";
+
+width: 100%;
+
+height: 364px;
+
+background-color: rgba(20, 96, 189, .9);
+
+/* z-index: 99999; */
+
+position: absolute;
+
+margin-top:-40px;
+
+}
+
+@media (min-width: 320px) and (max-width:500px) {
+
+.page-id-10373 section#themo_html_2:before {
+
+height: 515px;
+
+}
+
+}
+
+.page-id-10373 section#themo_html_2:before {
+
+content: "";
+
+width: 1265px;
+
+height: 365px;
+
+background-color: rgba(20, 96, 189, .9);
+
+/* z-index: 99999; */
+
+position: absolute;
+
+margin-top:-40px;
+}
+
+.page-id-8118 .inner-container {
+    background: #ffffff;
+    /* Change background color to white from #fbfcfd  */
+}
+
+@media only screen and (max-width: 767px) {
+.page-id-8118 #ptp-8946 header.ptp-dg6-pricing-header {
+    background-color: #ededed;
+    color: #fff!important;
+    /* Color change for background title text for pricing table on moble screens  */
+}
+}
+
+@media only screen and (max-width: 767px) {
+    .page-id-8118 #ptp-8946 header.ptp-dg6-pricing-header h2, #ptp-8946 header.ptp-dg6-pricing-header span {
+    color: #2584de!important; }
+    /* Color change for title text for pricing table on moble screens  */
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1600px) {
+    .page-id-10375 #themo_showcase_1.showcase {
+        padding-top: 4% !important;
+    }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+    .page-id-10375 #themo_showcase_1.showcase {
+        padding-top: 14%;
+    }
+    /* padding for laptop element on what is bs  */
+}
+
+.page-id-8105 .footer .tagcloud a:hover, .headhesive--clone .navbar-nav>li.active>a:after, .headhesive--clone .navbar-nav>li.active>a:focus:after, .headhesive--clone .navbar-nav>li.active>a:hover:after, .headhesive--clone .navbar-nav>li>a:hover:after, .search-submit, .search-submit:hover, .simple-conversion .with_frm_style input[type=submit], .simple-conversion .with_frm_style input[type=submit]:focus, .simple-conversion form input[type=submit], .simple-conversion form input[type=submit]:focus, .widget .tagcloud a:hover {
+    background-color: #eeeeee !important;
+ /* change color of submit button on tshirt page  */
+}
+
+/*** make code wrap throughout site  ***/
+code {white-space:pre-wrap}
+
+/*** Test page - upates before move over to main  ***/
+
+.page-id-11291  section#themo_html_1 .blue_mask {
+    position: relative;
+}
+
+.page-id-11291 .blue_mask {
+    background: rgba(20, 96, 189, .8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.page-id-11291 section#themo_page_header_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* from CC */
+}
+
+
+.page-id-11291 .light-text.full-header-img .backstretch:before {
+    /*content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+      -webkit-box-shadow: inset 0 0 0 1008px rgba(20, 96, 189, .8);
+           -moz-box-shadow: inset 0 0 0 1008px rgba(20, 96, 189, .8)
+               box-shadow: inset 0 0 0 1008px rgba(20, 96, 189, .8);*/
+     /* ios box shadow fix homepage */
+}
+
+.page-id-11291 .light-text.full-header-img {
+    /* box-shadow: inset 0 0 0 1008px rgba(20, 96, 189, .8)*/
+     /* header box shadow for home */
+}
+
+/*** Improve responsiveness for Home and What is BugSplat  ***/
+
+@media only screen and (min-width: 1599px){
+.page-id-11291 .page-title.right {
+    padding: 14% 0 60px 30%
+     /* Vertical centering for header on home when it is orientend right  */
+
+}
+}
+
+@media only screen and (min-width: 1364px){
+.page-id-11291 .page-title.right {
+    padding: 10% 0 60px 30%
+     /* Vertical centering for header on home when it is orientend right  */
+
+}
+.page-id-10375 section#themo_page_header_1 {
+    height: 75vh !important;
+ /* what is bs blue header width change to larger - was 65vh */
+
+}
+
+.page-id-10375 .aligncenter {
+    display: block;
+    width:100%;
+    margin: 4% auto;
+}
+
+.page-id-10375 section#themo_showcase_1 {
+    padding-bottom: 5%;
+    padding-top: 10%;
+}
+
+}
+
+
+@media only screen and (min-width: 767px) and (max-width: 1363px){
+    .page-id-10375 .aligncenter {
+    display: block;
+    width:95%;
+    margin: 1.5% auto;
+}
+
+.page-id-10375 section#themo_showcase_1 {
+    padding-bottom: 3%;
+    padding-top: 7%;
+}
+}
+
+
+@media only screen and (max-width: 767px){
+.page-id-10375 .aligncenter {
+    display: block;
+    width: 140% !important;
+    margin: 25% auto;
+}
+
+.page-id-10375 section#themo_showcase_1 {
+    padding-bottom: 5%;
+    padding-top: 14%;
+}
+}
+
+
+
+.page-id-8204 body > div.wrap > div > div > div.container > div > div > section > div > div > div > div > div.wpknb > div > article > div > p:nth-child(9) > code {
+
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    white-space: pre-wrap;
+    border-radius: 4px;
+}
+
+/*** Small fixes for responsiveness on home and what is BS  ***/
+
+@media (max-width: 767px) {
+.page-id-10373 .btn.btn-ghost {
+font-size: 16px;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.page-id-10373 section#themo_page_header_1 {
+height: auto;
+}
+}
+
+@media (max-width: 767px) {
+.page-id-10375 .btn.btn-ghost {
+font-size: 16px;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.page-id-10375 #themo_page_header_1 > div > div > div > h1 {
+    margin: -14px;
+    /* make sure element doesn't interfere with text on above fold on What is BS */
+}
+
+.page-id-10375 section#themo_page_header_1 {
+height: auto;
+}
+
+.page-id-10375 #themo_html_2 .col-md-12 {
+padding-left: 0;
+padding-right: 0;
+}
+
+.page-id-10375 section#themo_html_1.content-editor {
+margin-top: 0;
+}
+
+.page-id-10375 section#themo_html_1.content-editor .col-md-12 {
+padding-left: 0;
+padding-right: 0;
+}
+}
+
+/*** Styling over Moonman insert on what is bs  ***/
+
+.page-id-10375 #themo_call_to_action_2 {
+    box-shadow: inset 0 0 0 1008px rgba(4, 23, 42, .6);
+}
+
+
+/*** Home page heatmpa 100 mil  ***/
+
+.page-id-10373 section#themo_html_3 {
+    box-shadow: inset 0 0 0 1008px rgba(20, 96, 189, .9);
+}
+
+
+/*** Testimonial and call to action Edits on What is BS  ***/
+
+.page-id-10375 section#themo_html_2 {
+     box-shadow: inset 0 0 0 1008px rgba(20, 96, 189, .9);
+    -webkit-appearance: none;
+}
+
+
+.page-id-10375 .quote {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px 30px 40px;
+}
+
+.page-id-10375 #themo_testimonials_1 > div > div > div > figure > blockquote {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 150%;
+    font-style: italic;
+    color: #ffffff;
+    padding: 0;
+    margin-bottom: 22px;
+    border: 0;
+}
+
+.page-id-10375 .quote img {
+    height: 100 px;
+    width: 100px;
+    float: left;
+    margin: 0 14px 0 0;
+}
+
+/*** Adjusting padding on platforms image HOME  ***/
+
+.page-id-10373 .content-editor, .error-404 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* adjust padding on platforms image for home  */
+}
+
+
+/*** Centering CSS for responsiveness  ***/
+
+@media (max-width: 767px) {
+#themo_html_1 .container,
+#themo_html_2 .container {
+width: 100%;
+max-width: 400px;
+}
+
+.page-id-11291 .page-title-button {
+margin: 0 !important;
+}
+}
+
+@media (max-width: 767px) {
+#themo_html_1 .container,
+#themo_html_2 .container {
+width: 100%;
+max-width: 400px;
+}
+}
+
+
+body > footer > div.container > div > div.footer-area-1.col-md-3.col-sm-6 > section > div > div > a > img {
+        padding-top:30px;
+        /* top padding on first column footer */
+}
+
+body > footer > div.container > div > div.footer-area-4.col-md-3.col-sm-6 > section > div > div > h4:nth-child(6) > a
+{
+    color:#2584de;
+}
+
+/*** Bucket #1 move CSS  ***/
+
+@media (min-width: 1199px) {
+    .page-id-10373 #hype-obj-5yUL72DYe8kdkpc3 {
+        text-align: center;
+        padding:8px 75px 8px 8px;
+    }
+}
+
+
+@media (min-width: 147px) {
+.page-id-10375 .showcase {
+    padding-top: 3px;
+}
+}
+
+.page-id-10373 section#themo_page_header_1 {
+     /* height: 77vh;*/
+     /* adjusting height on above the fold home - CC change  */
+}
+
+.page-id-10375 section#themo_html_1.content-editor {
+    margin-top: -377px;
+}
+
+.page-id-10375 section#themo_page_header_1 {
+   height: 77vh;
+     /* adjusting height on above the fold bs   */
+}
+
+.page-id-10373 .quote img {
+    height: 97px;
+    width: 97px;
+    float: left;
+    margin: 0 14px 0 0;
+     /* testimonial image size  */
+}
+
+/*.page-id-10375 section#themo_html_2.content-editor{
+    box-shadow: inset 0 0 0 1008px rgba(20, 96, 189, .8);
+    /* box shadow for heatmap on what is bs */
+} */
+
+.page-id-10375  .content-editor.full-header-img .backstretch:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 0 1008px rgba(20, 96, 189, .8);
+     /* ios box shadow fix what is bs */
+}
+
+
+.page-id-10375 .light-text.full-header-img .backstretch:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 0 1008px rgba(04, 23, 42, .8);
+     /* ios box shadow fix what is bs */
+}
+
+.page-id-10373 .light-text.full-header-img .backstretch:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 0 1008px rgba(37, 132, 222, .1);
+     /* ios box shadow fix homepage */
+}
+
+.page-id-11291 .page-title-button {
+    position: absolute !important;
+    right: 5% !important;
+    /* position button below hype element */
+}
+
+
+.page-id-10373 .h3 {
+    font-size: 26px;
+    padding-left: 10%;
+    /* Changing h3 size and adding padding on second header hp */
+}
+
+.page-id-10373 .light-text.full-header-img {
+    box-shadow: inset 0 0 0 1008px rgba(37, 132, 222, .1)
+     /* header box shadow for home */
+}
+
+.page-id-10375 .float-content.col-sm-8 {
+        padding: 0 0%;
+        /* realign tour contents left on what is bs */
+}
+
+.page-id-11291 .page-title-h1 {
+    width: 90%;
+    max-width: 900px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo-trans.logo-reg{
+   width: 250px;
+   height: 73px;
+  /* Logo size on above fold header */
+}
+
+
+.page-id-11291 .page-title-h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 10px 2px 10px 80px;
+    padding: 10px 0 0;
+    max-width: 90%;
+    /* Mobile resizing for h4 */
+}
+
+.page-id-11291 .page-title-h1 {
+    font-size: 47px;
+    line-height: 41px;
+    /* Change h1 size for home page BS */
+}
+
+/*** Above fold dialogue box what is BS ***/
+
+
+@media (min-width: 300px) and (max-width: 767px){
+    .page-id-10375 section#themo_html_1.content-editor {
+    margin-top: -267px;
+    }
+    .page-id-10375 .page-title.centered {
+    padding: 15px 5%;
+    }
+}
+
+/*** Above fold header home BS ***/
+
+@media (min-width: 1200px) {
+    .page-id-11291 .page-title-button {
+        position: static !important;
+    }
+}
+
+@media (max-width: 1199px) {
+    .page-title.right {
+        padding: 0;
+        text-align: center;
+    }
+
+    .page-id-11291 .page-title-h4 {
+        margin: 0;
+    }
+
+    .page-id-11291 .page-title-button {
+        position: static !important;
+        margin: 0;
+    }
+}
+
+.page-id-11291 .page-title-button {
+    margin: -25px 30px 0px 0px;
+ /* Repositon ghost button in header */
+}
+
+/*** Bucket #1 move CSS end  ***/
+
+
+.page-id-8118 .page-title.centered {
+    padding: 45px 15% 10px 15%;
+    /* remove some of the padding around the title */
+}
+
+.page-id-8118 .themo-action-text-span {
+    color: #d53b5a;
+    /* color changing in pricing page */
+}
+
+
+.logo-trans.logo-reg{
+   width: 250px;
+  height: 73px;
+  /* Logo size on above fold header */
+}
+
+.logo-main.logo-reg{
+  width: 250px;
+  height: 73px;
+  /* Logo size on above fold header */
+}
+
+.footer {
+    background: #04172a;
+    color: #04172a;
+    /* Color change of larger footer */
+}
+
+.footer-btm-bar {
+    background: #04172a;
+    padding: 25px 0 15px;
+    /* Color change of smaller footer */
+}
+
+.footer-area-1.col-md-4.col-sm-6 {
+    width: 21%;
+    /* Footer percentage change */
+}
+
+.footer-area-2.col-md-4.col-sm-6 {
+    width: 24%;
+    /* Footer percentage change */
+}
+.footer-area-3.col-md-4.col-sm-6 {
+    width: 55%;
+    /* Footer percentage change */
+}
+
+.footer {
+    padding: 20px 0 10px;
+    /* Padding reduction */
+}
+
+.footer .h3-p1 {
+    margin-left: 20px;
+}
+
+.page-id-4472 .page-title.centered {
+    padding: 60px 5%;
+    /* Reduce padding from 15% to 5% on homepage above fold */
+}
+
+.page-id-4472 .page-title.centered {
+    padding: 60px 10%;
+    /* Reduce padding from 15% to 10% on features above fold */
+}
+
+.footer-area-1.col-md-4.col-sm-6 {
+    padding-top: 45px;
+    /* Top padding on bugsplat icon in footer */
+}
+
+.footer-widgets.row {
+    margin-bottom: 0px;
+    /* Bottom padding in footer */
+}
+
+.page-id-996 .navbar {
+   display: none;
+/* Remove header from overview page */
+}
+
+/* Header Page CSS */
+.page-id-996 .body {
+    padding-top: 50px;
+    overflow: hidden;
+}
+
+.page-id-996 .wrapper {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    display: inline-block;
+}
+
+.page-id-996 .main-wrapper {
+    height: 100%;
+    overflow-y: auto;
+    padding: 50px 0 0px 0;
+}
+
+.page-id-996 .main {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 15px;
+}
+
+.page-id-996 .sidebar-wrapper {
+    height: 100%;
+    padding: 50px 0 0px 0;
+    position: fixed;
+    border-right: 1px solid gray;
+}
+
+.page-id-996 .sidebar {
+    position: relative;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.page-id-996 .sidebar .list-group-item {
+        border-radius: 0;
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+}
+
+/*** Blog Banner Sidebar ***/
+
+@media (max-width: 767px) {
+    #fixedBlogText {
+        position: static !important;
+        width: auto !important;
+    }
+}
+
+@media (max-width: 992px) {
+    body {
+        padding-top: 0px;
+    }
+}
+@media (min-width: 992px) {
+    #main-wrapper {
+        float:right;
+    }
+}
+@media (max-width: 992px) {
+    #main-wrapper {
+        padding-top: 0px;
+    }
+}
+@media (max-width: 992px) {
+    #sidebar-wrapper {
+        position: static;
+        height:auto;
+        max-height: 300px;
+  		border-right:0;
+	}
+}
+
+#fixedBlogText.fixed{
+    width:355px;
+}
+
+.body.single .sidebar {
+  padding: 20px 15px 40px 40px;
+  /* Top padding on single blog post side bar */
+}
+
+.body.single .wp-post-image {
+  margin-top: 40px;
+  margin-bottom: 20px;
+/* Top padding on single blog post header image */
+}
+
+
+
+.page-id-996 .footer {
+   display: none;
+    /* remove footer from overview page */
+}
+
+.page-id-996 .header {
+   display: none;
+   /* remove header from overview page */
+}
+
+.page-id-8105 .conversion-form {
+  padding-top: 80px;
+  padding-bottom: 350px;
+  /* TSHirt page sizing */
+}
+
+.headhesive--clone #logo img {
+	width: 117px;
+    height: 30px;
+}
+
+.page-id-1141 .content-editor, .error-404 {
+  padding-top: 0px;
+  padding-bottom: 40px;
+  /* blog side text area alignment */
+}
+
+.page-id-1141 .navbar-nav {
+  color: #fff;
+  font-size: 18px;
+/* resize main menu links */
+}
+
+.page-id-983 .quote {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 25px 30px 40px;
+  /* Width of single quote on sign up page */
+}
+
+.page-id-7403 .float-content {
+  padding: 0 3%;
+}
+
+.page-id-4472 .icon-block {
+  padding: 45px;
+  /* Proper spacing for service block below header */
+}
+
+
+
+.page-id-8257.showcase {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  /* padding at the top and bottom of the text on 'About' page */
+
+}
+
+.simple-conversion div#nf_processing_25 {
+    display: none !important;
+}
+
+.page-id-8105 .ninja-forms-form-wrap label {
+    display: none;
+    font-weight: bold;
+    /* Remove unwanted section on tshirt page */
+}
+
+.page-id-8756 .float-content {
+    padding: 0 1%;
+    /* make tour content full width */
+}
+
+.page-id-8105 .conversion-form {
+    padding-top: 37px;
+    padding-bottom: 350px;
+    /* make header smaller on tshirt page*/
+}
+
+.page-id-8518 .AccountRegistration {
+    padding-bottom: 200px;
+    /* Extend area below account reg form */
+}
+
+.page-id-9387 .section-header h2 {
+    color: #2584de;
+     /* Exploring what h2 would look like in light blue - lab */
+}
+
+.page-id-8257 .showcase_image.col-sm-6 {
+    padding-top: 37px;
+    /* padding at the top of first image on 'About' page*/
+}
+
+/*** Pricing table responsivness ***/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body .ptp-dg6-pay-duration {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body header.ptp-dg6-pricing-header {
+        text-align: center;
+    }
+
+    body div.ptp-dg6-pricing-features {
+        display: table;
+        width: 100%;
+    }
+
+    body .ptp-dg6-pricing-features::after {
+        display: none;
+    }
+
+    body .ptp-dg6-pricing-features div {
+        vertical-align: middle;
+    }
+
+    body .ptp-dg6-cta {
+        position: static;
+    }
+
+    body div.ptp-dg6-cta {
+        padding: 20px 0 !important;
+        height: auto !important;
+    }
+
+    body .ptp-dg6-cta::after {
+        display: none;
+    }
+}
+
+/*** Footer responsive ***/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .footer-area-2.col-md-4.col-sm-6 {
+        width: 23%;
+        padding-top: 30px;
+    }
+
+    .footer-area-3.col-md-4.col-sm-6 {
+        width: 62%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .footer-area-1.col-md-4.col-sm-6 {
+        width: 50%;
+        text-align: right;
+        padding-top: 20px;
+    }
+
+    .footer-area-2.col-md-4.col-sm-6 {
+        width: 50%;
+
+
+    }
+
+    .footer-area-3.col-md-4.col-sm-6 {
+        width: 100%;
+        clear: left;
+    }
+
+    .footer-area-3.col-md-4.col-sm-6 .textwidget .p1 {
+        text-align: center !important;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-area-1.col-md-4.col-sm-6 {
+        width: 100%;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .footer-area-2.col-md-4.col-sm-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-area-2.col-md-4.col-sm-6 .textwidget > h3 {
+        text-align: center !important;
+    }
+
+    .footer-area-3.col-md-4.col-sm-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-area-3.col-md-4.col-sm-6 .textwidget .p1 {
+        text-align: center !important;
+        padding-left: 0 !important;
+    }
+
+    .footer-area-3.col-md-4.col-sm-6 .textwidget .p1:last-child {
+        margin-top: 20px;
+    }
+
+    .footer-area-3.col-md-4.col-sm-6 .textwidget .p1:last-child .s1 > a {
+        margin-top: 10px;
+    }
+
+    .footer-area-3.col-md-4.col-sm-6 .textwidget .p1:last-child .s1 > a,
+    .footer-area-3.col-md-4.col-sm-6 .textwidget .p1:last-child .s1 span {
+        display: block;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+header .container
+{ max-width: 100%; width: 100%; }
+}
+
+/* Start of the overrides */
+
+section#themo_page_header_1{background-color:#009dd5;}
+
+.light-text .page-title h1 {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.page-title h4 {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 20px 0 0;
+}
+
+.page-title-legend{
+  padding: 15px 0 0;
+  font-size: 10px;
+}
+
+.page-title-button .btn {
+  padding: 10px 60px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-title.centered {
+    padding: 0;
+  }
+}
