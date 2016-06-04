@@ -967,6 +967,11 @@ header .container
 
 /* Start of the overrides */
 
+h1, h2 {
+  font-weight: bold;
+  color: #24355a
+}
+
 section#themo_page_header_1{background-color:#009dd5;}
 
 .light-text .page-title h1 {
@@ -1014,4 +1019,56 @@ section#themo_page_header_1{background-color:#009dd5;}
 
 .navbar .navbar-nav > li.menu-sign-up-login > a {
   color: #266bae;
+}
+
+.platform-arrow, .title-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.platform-arrow {
+  position: relative;
+  border-left: 3px solid #7fafd4;
+  height: 150px;
+  width: 12px;
+}
+
+.platform-arrow::before {
+  width: 1px;
+  height: 100%;
+  background-color: #7fafd4;
+}
+
+.platform-arrow .white-triangle {
+  position: absolute;
+  top: 48%;
+  left: -3px;
+  width: 0;
+  height: 0;
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 9px solid white;
+  z-index: 6;
+}
+
+.platform-arrow .triangle {
+  z-index: 5;
+  position: absolute;
+  top: 47%;
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #7fafd4;
+}
+
+.title-container {
+  margin-left: 20px;
+  width: 85%;
+}
+
+.title-container h1 {
+  font-size: 60px;
+  font-size: 50px;
+  line-height: 50px;
 }
