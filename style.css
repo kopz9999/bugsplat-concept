@@ -998,3 +998,16 @@ section#themo_page_header_1{background-color:#009dd5;}
     padding: 0;
   }
 }
+
+
+.navbar .navbar-nav > li > a {
+  color: #009dd6;
+}
+
+.menu-sign-up-login {
+  font-size: 10px;
+}
+
+.navbar .navbar-nav > li.menu-sign-up-login > a {
+  color: #266bae;
+}
