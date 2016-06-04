@@ -167,6 +167,22 @@ section#themo_page_header_1{background-color:#009dd5;}
   width: 120px;
 }
 
+@media only screen and (max-width: 768px) {
+  .quote {
+    padding: 0;
+  }
+  .quote img {
+    top: 0;
+    width: 80px;
+  }
+  .quote blockquote.blockquote-1 {
+    margin-left: 100px;
+  }
+  .quote figcaption.figcaption-1 {
+    margin-left: 100px;
+  }
+}
+
 section#themo_html_3{background-color:#009dd5;}
 
 #themo_html_3 {
@@ -210,21 +226,32 @@ section#themo_html_3{background-color:#009dd5;}
   height: 40px !important;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
-  margin-left: 30px;
+  margin-left: auto;
+  margin-right: auto;
   width: 165px;
   margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 #ptp-8946 div.ptp-dg6-highlight {
   background-color: #005fa9 !important;
   box-shadow: none !important;
+  padding-bottom: 20px;
 }
 
 #ptp-8946 .ptp-dg6-highlight div.ptp-dg6-bullet-item:nth-of-type(2n+1),
 #ptp-8946 .ptp-dg6-highlight div.ptp-dg6-bullet-item:nth-of-type(2n),
 #ptp-8946 div.ptp-dg6-highlight header.ptp-dg6-pricing-header {
   background-color: #005fa9 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  #ptp-8946 header.ptp-dg6-pricing-header {
+    background-color: transparent !important;
+  }
+  #ptp-8946 div.ptp-dg6-highlight.selected header.ptp-dg6-pricing-header h2,
+  #ptp-8946 div.ptp-dg6-highlight.selected header.ptp-dg6-pricing-header span {
+    color: white !important;
+  }
 }
 
 #themo_html_5 .backstretch:before {
