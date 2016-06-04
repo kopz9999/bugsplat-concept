@@ -990,7 +990,7 @@ section#themo_page_header_1{background-color:#009dd5;}
   padding: 10px 60px;
   border-radius: 20px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 38px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1010,4 +1010,8 @@ section#themo_page_header_1{background-color:#009dd5;}
 
 .navbar .navbar-nav > li.menu-sign-up-login > a {
   color: #266bae;
+}
+
+.page-title.centered {
+    padding: 60px 32%;
 }
