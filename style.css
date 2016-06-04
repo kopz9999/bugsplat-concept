@@ -1133,3 +1133,23 @@ section#themo_page_header_1{background-color:#009dd5;}
   position: absolute;
   width: 120px;
 }
+
+section#themo_html_3{background-color:#009dd5;}
+
+#themo_html_3 {
+  padding-bottom: 0;
+}
+
+#themo_html_3 p {
+  margin-bottom: 0;
+}
+
+#themo_html_3 h1 {
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 38px;
+  line-height: 45px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
