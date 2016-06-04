@@ -226,3 +226,12 @@ section#themo_html_3{background-color:#009dd5;}
 #ptp-8946 div.ptp-dg6-highlight header.ptp-dg6-pricing-header {
   background-color: #005fa9 !important;
 }
+
+#themo_html_5 .backstretch:before {
+  content: '';
+  background-color: #005FA9;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
