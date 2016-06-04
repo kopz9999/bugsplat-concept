@@ -262,3 +262,38 @@ section#themo_html_3{background-color:#009dd5;}
   height: 100%;
   opacity: 0.8;
 }
+
+
+#themo_call_to_action_1 .row {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  background-color: #e5f5fb;
+}
+
+#themo_call_to_action_1 .themo-action-text span {
+  color: #24355a;
+  font-weight: bold;
+}
+
+#themo_call_to_action_1 .btn {
+  border: none;
+  background-color: #efa735;
+  border-radius: 20px !important;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+  #themo_call_to_action_1 .row {
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+  }
+}
