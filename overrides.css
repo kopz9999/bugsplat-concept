@@ -297,3 +297,19 @@ section#themo_html_3{background-color:#009dd5;}
     border-radius: 20px;
   }
 }
+
+.footer, .footer-btm-bar{
+  background-color: #24355a;
+}
+
+.footer h3{
+  font-size: 14px;
+}
+
+.footer a{
+  font-size: 12px;
+}
+
+.footer .textwidget p {
+  font-size: 12px;
+}
