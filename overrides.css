@@ -254,13 +254,29 @@ section#themo_html_3{background-color:#009dd5;}
   }
 }
 
-#themo_html_5 .backstretch:before {
+#themo_html_5 .section-header h2 {
+  font-size: 38px;
+  line-height: 45px;
+}
+
+#themo_html_5 .row:nth-child(2) .col-md-3 > div:first-child,
+#themo_html_5 .row:nth-child(2) .col-md-4 > div:first-child {
+  height: 100px;
+}
+
+#themo_html_5 .row:nth-child(2) .col-md-3 > div:first-child img,
+#themo_html_5 .row:nth-child(2) .col-md-4 > div:first-child img {
+  width: 140px;
+}
+
+#themo_html_5 .shadowMask {
   content: '';
   background-color: #005FA9;
   position: absolute;
   width: 100%;
   height: 100%;
   opacity: 0.8;
+  top: 0px;
 }
 
 
