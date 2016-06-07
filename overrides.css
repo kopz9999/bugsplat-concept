@@ -141,6 +141,10 @@ section#themo_page_header_1{background-color:#009dd5;}
   display: none;
 }
 
+#horizontal-image {
+  padding-top: 25px;
+}
+
 @media only screen and (max-width: 768px) {
   #horizontal-image {
     display: none;
