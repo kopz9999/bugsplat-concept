@@ -154,29 +154,29 @@ section#themo_page_header_1{background-color:#009dd5;}
     display: block;
   }
 }
+.quote {
+  max-width: 600px;
+}
 
 .quote blockquote.blockquote-1 {
-  margin-left: 150px;
-  font-size: 12px;
+  margin-left: 170px;
   font-style: normal;
   margin-bottom: 5px;
 }
 
 .quote figcaption.figcaption-1 {
-  margin-left: 150px;
-  font-size: 14px;
+  margin-left: 170px;
   font-weight: bold;
 }
 
 .quote figcaption.figcaption-1 span {
   font-weight: normal;
-  font-size: 12px;
 }
 
 .quote img {
   top: 25px;
   position: absolute;
-  width: 120px;
+  width: 140px;
 }
 
 @media only screen and (max-width: 768px) {
