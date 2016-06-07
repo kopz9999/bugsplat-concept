@@ -7,6 +7,10 @@ h1, h2, h3 {
 
 section#themo_page_header_1{background-color:#009dd5;}
 
+.float-content {
+    padding: 0px;
+}
+
 .light-text .page-title h1 {
   font-weight: bold;
   font-size: 38px;
