@@ -271,13 +271,22 @@ section#themo_html_3{background-color:#009dd5;}
   line-height: 45px;
 }
 
-#themo_html_5 .row:nth-child(2) .col-md-3 > div:first-child,
-#themo_html_5 .row:nth-child(2) .col-md-4 > div:first-child {
+#themo_html_5 .row:nth-child(2) .col-sm-3 {
+  padding: 0px;
+}
+
+#themo_html_5 .row:nth-child(2) .col-sm-4 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#themo_html_5 .row:nth-child(2) .col-sm-3 > div:first-child,
+#themo_html_5 .row:nth-child(2) .col-sm-4 > div:first-child {
   height: 100px;
 }
 
-#themo_html_5 .row:nth-child(2) .col-md-3 > div:first-child img,
-#themo_html_5 .row:nth-child(2) .col-md-4 > div:first-child img {
+#themo_html_5 .row:nth-child(2) .col-sm-3 > div:first-child img,
+#themo_html_5 .row:nth-child(2) .col-sm-4 > div:first-child img {
   width: 140px;
 }
 
