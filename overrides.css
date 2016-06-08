@@ -290,6 +290,11 @@ section#themo_html_3{background-color:#009dd5;}
   width: 140px;
 }
 
+#themo_html_5 .crash-information-text{
+  max-width: 240px;
+  margin: 0 auto;
+}
+
 #themo_html_5 .shadowMask {
   content: '';
   background-color: #005FA9;
@@ -359,6 +364,5 @@ section#themo_html_3{background-color:#009dd5;}
 @media only screen and (max-width: 768px) {
   .tour-paragraph {
     width: 100%;
-    margin: 0 auto;
   }
 }
