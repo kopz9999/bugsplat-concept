@@ -341,3 +341,15 @@ section#themo_html_3{background-color:#009dd5;}
 .footer .textwidget p {
   font-size: 12px;
 }
+
+.tour-paragraph {
+  width: 330px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .tour-paragraph {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
