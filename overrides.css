@@ -11,10 +11,6 @@ section#themo_page_header_1{background-color:#009dd5;}
     padding: 0px;
 }
 
-#themo_tour_1 {
-  border-bottom: 5px solid #D9D9D9;
-}
-
 .light-text .page-title h1 {
   font-weight: bold;
   font-size: 38px;
@@ -365,4 +361,9 @@ section#themo_html_3{background-color:#009dd5;}
   .tour-paragraph {
     width: 100%;
   }
+}
+
+
+#themo_html_1 {
+  padding-top: 70px;
 }
