@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+}
+
+.wrap {
+  height: calc(100% - 160px);
+}
+
+.right-panel {
+  border-left: 1px solid #c7c7c7;
+}
+
+.AccountRegistration {
+  overflow: auto;
+}
+
+.content {
+  height: 100%;
+}
+
+.AccountRegistration {
+  height: 100%;
+}
+
+a.link {
+  color: #51abdf;
+}
+
+.bugsplat-logo {
+  margin-top: 30px;
+}
+
+#ninja_forms_field_117, #ninja_forms_field_118 {
+  width: 49%;
+}
+
+form label {
+  color: black;
+}
+
+section.AccountRegistration .ninja-forms-all-fields-wrap .show-checkbox > * {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+}
+
+section.AccountRegistration .ninja-forms-all-fields-wrap .show-checkbox label {
+    margin-top: 6px;
+}
+
+.show-checkbox {
+  position: absolute;
+  top: -3px;
+  right: 0px;
+}
+
+form .show-checkbox input {
+  margin-top: 0px;
+  margin-right: 5px;
+}
+
+form .show-checkbox label {
+  color: #9b9b9b;
+  font-size: 12px;
+}
+
+.ninja-forms-pass1 {
+  position: relative;
+}
+
+#nf_submit_28 button.btn {
+  background-color: #7bc743;
+  padding: 10px 15px;
+}
+
+#ninja_forms_field_120_div_wrap legend {
+  font-size: 12px;
+  border: none;
+}
+
+#ninja_forms_form_28_wrap input[type='text'], #ninja_forms_form_28_wrap input[type='password'] {
+  background: url('icon.PNG') no-repeat 98% 5px;
+  padding-right: 28px;
+}
