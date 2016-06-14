@@ -124,6 +124,7 @@ section#themo_page_header_1{
 }
 
 .platform-arrow, .title-container {
+  margin-top: -35px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -164,6 +165,15 @@ section#themo_page_header_1{
   border-left: 10px solid #7fafd4;
 }
 
+@media screen and (min-width: 768px) {
+  .vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+    width: 49.5%;
+  }
+}
+
 .title-container {
   margin-left: 20px;
   width: 85%;
@@ -175,15 +185,21 @@ section#themo_page_header_1{
   line-height: 50px;
 }
 
-
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .platform-arrow {
     display: none;
   }
+}
+
+@media only screen and (max-width: 768px) {
   .title-container h1 {
     font-size: 30px;
     line-height: 30px;
     text-align: center;
+  }
+  .title-container {
+    width: 100%;
+    margin-top: 0px;
   }
 }
 
