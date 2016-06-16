@@ -11,6 +11,12 @@ body {
   border-left: 1px solid #c7c7c7;
 }
 
+@media screen and (max-width: 768px) {
+  .right-panel {
+    border-left: none;
+  }
+}
+
 .AccountRegistration {
   overflow: auto;
 }
@@ -83,4 +89,8 @@ form .show-checkbox label {
 #ninja_forms_form_28_wrap input[type='text'], #ninja_forms_form_28_wrap input[type='password'] {
   background: url('icon.PNG') no-repeat 98% 5px;
   padding-right: 28px;
+}
+
+#ninja_forms_form_28_wrap br {
+  display: none;
 }
