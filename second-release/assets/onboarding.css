@@ -1,0 +1,13 @@
+@media only screen and (max-width: 768px) {
+  #nf_submit_30 #ninja_forms_field_132 {
+    width: 100%;
+  }
+  .page-id-15357 .wrap {
+      height: calc(100% - 140px);
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px)  {
+  #nf_submit_30 #ninja_forms_field_132 {
+    width: 70%;
+  }
+}
