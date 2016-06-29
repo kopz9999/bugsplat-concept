@@ -1,3 +1,19 @@
 .float-img img {
   width: 100%;
 }
+
+@media only screen and (max-width: 768px) {
+  .page-id-15869 #themo_call_to_action_1 .row {
+    border-radius: 65px !important;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .page-id-15869 .simple-cta .btn {
+    margin: 0;
+    margin-top: 15px;
+  }
+}
