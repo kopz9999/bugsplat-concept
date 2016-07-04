@@ -50,6 +50,7 @@ img.emoji {
 <link rel="stylesheet" href="http://askaig.bugsplat.com/wp-content/plugins/themovation-bootstrap-3-shortcodes/css/style.css?ver=1.1">
 <link rel="stylesheet" href="http://askaig.bugsplat.com/wp-content/plugins/KnB-knowledge-base-wordpress/public/css/tooltip.css?ver=1.0.0">
 <link rel="stylesheet" href="http://askaig.bugsplat.com/wp-content/plugins/KnB-knowledge-base-wordpress/public/css/wpknb.css?ver=1.0.0">
+<link rel="stylesheet" href="http://askaig.bugsplat.com/wp-content/uploads/useanyfont/uaf.css?ver=1467236688">
 <link rel="stylesheet" href="http://askaig.bugsplat.com/wp-content/plugins/font-awesome/assets/css/font-awesome.min.css?ver=3.2.1">
 <!--[if lte IE 7]>
 <link rel="stylesheet" href="http://askaig.bugsplat.com/wp-content/plugins/font-awesome/assets/css/font-awesome-ie7.min.css?ver=3.2.1">
@@ -96,8 +97,8 @@ var wpknb_vars = {"ajaxurl":"http:\/\/askaig.bugsplat.com\/wp-admin\/admin-ajax.
 
   <link rel="alternate" type="application/rss+xml" title="BugSplat Software Feed" href="http://askaig.bugsplat.com/feed/">
 
-	<link rel="shortcut icon" href="http://askaig.bugsplat.com/wp-content/uploads/2015/06/bugsplat_favicon-310x310.png" type="image/png">
-<link rel="icon" href="http://askaig.bugsplat.com/wp-content/uploads/2015/06/bugsplat_favicon-310x310.png" type="image/png">                <link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="http://askaig.bugsplat.com/wp-content/uploads/2015/06/bugsplat_favicon-310x310-1.png" type="image/png">
+<link rel="icon" href="http://askaig.bugsplat.com/wp-content/uploads/2015/06/bugsplat_favicon-310x310-1.png" type="image/png">                <link href='//fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
                                 <link href='//fonts.googleapis.com/css?family=Pacifico'' rel='stylesheet' type='text/css'>
                                 <link href='//fonts.googleapis.com/css?family=Press+Start+2P'' rel='stylesheet' type='text/css'>
                                 <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
@@ -111,15 +112,21 @@ h1, h2, h3, h4, h5, h6{color:#579bd2 ;}
 
 /* Custom Color CSS #68b1f0 */
 #main-flex-slider .slides h1,.accent,.light-text .btn-ghost:hover,.light-text .googlemap a,.light-text .pricing-column.highlight .btn-ghost:hover,.light-text .pricing-column.highlight .btn-standard,.navbar .navbar-nav .dropdown-menu li a:hover,.navbar .navbar-nav .dropdown-menu li.active a,.navbar .navbar-nav .dropdown-menu li.active a:hover,.page-title h1,.panel-title i,.pricing-column.highlight .btn-ghost:hover,.pricing-column.highlight .btn-standard,.pricing-cost,.simple-cta span,.team-member-social a .soc-icon:hover,a{color:#68b1f0}.footer .widget-title:after,.navbar .navbar-nav>li.active>a:after,.navbar .navbar-nav>li.active>a:focus:after,.navbar .navbar-nav>li.active>a:hover:after,.navbar .navbar-nav>li>a:hover:after{background-color:#68b1f0}.accordion .accordion-btn .btn-ghost:hover,.btn-ghost:hover,.btn-standard,.circle-lrg-icon i,.circle-lrg-icon span,.light-text .pricing-table .btn-ghost:hover,.pager li>a:hover,.pager li>span:hover,.pricing-column.highlight{background-color:#68b1f0;border-color:#68b1f0}.accordion .accordion-btn .btn-ghost,.btn-ghost,.circle-lrg-icon i:hover,.circle-lrg-icon span:hover,.light-text .pricing-table .btn-ghost{color:#68b1f0;border-color:#68b1f0}.search-form input:focus,.widget select:focus,form input:focus,form select:focus,form textarea:focus{border-color:#68b1f0!important}.circle-med-icon i,.circle-med-icon span,.frm_form_submit_style,.frm_form_submit_style:hover,.with_frm_style .frm_submit input[type=button],.with_frm_style .frm_submit input[type=button]:hover,.with_frm_style .frm_submit input[type=submit],.with_frm_style .frm_submit input[type=submit]:hover,.with_frm_style.frm_login_form input[type=submit],.with_frm_style.frm_login_form input[type=submit]:hover,form input[type=submit],form input[type=submit]:hover{background:#68b1f0}.footer .tagcloud a:hover,.headhesive--clone .navbar-nav>li.active>a:after,.headhesive--clone .navbar-nav>li.active>a:focus:after,.headhesive--clone .navbar-nav>li.active>a:hover:after,.headhesive--clone .navbar-nav>li>a:hover:after,.search-submit,.search-submit:hover,.simple-conversion .with_frm_style input[type=submit],.simple-conversion .with_frm_style input[type=submit]:focus,.simple-conversion form input[type=submit],.simple-conversion form input[type=submit]:focus,.widget .tagcloud a:hover{background-color:#68b1f0!important}.btn-cta{background-color:#24355a}
-h1, h2 {
-    font-family: "code-pro-bold-lc";
-}
-
 /* Start formatting for call to action on pricing */
 
 .page-id-8118 .simple-cta .btn {
     margin: 16px 0px 9px -20px;
     /* Button padding pleases duplicate to home */
+}
+
+@media only screen and (max-width: 768px) {
+  .page-id-15532 .light-text .page-title h1 {
+    font-size: 50px !important;
+  }
+
+  .page-id-15532 .page-title.centered {
+    padding: 30px 0px;
+  }
 }
 
 @media only screen and (max-width: 990px) {
@@ -394,6 +401,8 @@ section.AccountRegistration .ninja-forms-all-fields-wrap input, section.AccountR
 
 .page-id-15357 html, body {
   height: 100vh;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 .page-id-15357 .wrap {
@@ -435,16 +444,34 @@ section.AccountRegistration .ninja-forms-all-fields-wrap input, section.AccountR
     height: auto !important;
   }
 
+@media only screen and (max-width: 768px) {
+   .page-id-15357 #nf_submit_30 #ninja_forms_field_132 {
+     width: 100%;
+   }
+   .page-id-15357 .wrap {
+       height: calc(100% - 140px);
+   }
+}
+@media screen and (min-width: 768px) and (max-width: 1200px)  {
+   .page-id-15357 #nf_submit_30 #ninja_forms_field_132 {
+     width: 70%;
+   }
+}
+
 /* End of the overrides test for flyswatter - account reg  */
 
 /* Start of the overrides test for flyswatter - features  */
 
-.page-id-15869 h1, h2, h3 {
+.page-id-15869 h3 {
   font-weight: bold;
   color: #24355a;
 }
 
-.page-id-15869 section#themo_page_header_1{background-color:#579BD2;}
+.page-id-15869 .float-img img {
+    width: 100%;
+}
+
+.page-id-15869 section#themo_page_header_1{background-color:##015fa9 !important;}
 
 .page-id-15869 .float-content {
     padding: 0px;
@@ -465,7 +492,7 @@ section.AccountRegistration .ninja-forms-all-fields-wrap input, section.AccountR
 }
 
 .page-id-15869 .light-text .page-title h1 {
-  font-weight: 700;
+  font-weight: inherit;
   font-size: 4.2em;
   line-height: 1em;
 }
@@ -822,11 +849,11 @@ section.AccountRegistration .ninja-forms-all-fields-wrap input, section.AccountR
 /* Start of the overrides test for flyswatter - home  */
 
 .page-id-15532 h1, h2, h3 {
-  font-weight: bold;
+  font-weight: inherit;
   color: #24355a
 }
 
-.page-id-15532 section#themo_page_header_1{background-color:#68B1F0;}
+.page-id-15532 section#themo_page_header_1{background-color:#015FA9 !important;}
 
 .page-id-15532 .content-editor, .error-404 {
     padding-top: 40px;
@@ -839,7 +866,7 @@ section.AccountRegistration .ninja-forms-all-fields-wrap input, section.AccountR
 }
 
 .page-id-15532 section#themo_html_1{
-  background-color:#68B1F0;
+  background-color:#015FA9;
   position: relative;
   z-index: 0;
   padding-top: 10px;
@@ -916,7 +943,7 @@ section.AccountRegistration .ninja-forms-all-fields-wrap input, section.AccountR
 }
 
 .page-id-15532 .light-text .page-title h1 {
-  font-weight: 700;
+  font-weight: inherit;
   font-size: 4.2em;
   line-height: 1em;
 }
@@ -1132,7 +1159,7 @@ margin-bottom: 5px;
   padding-left: 20%;
   padding-right: 20%;
   font-size: 5.4em;
-  font-weight: 700;
+  font-weight: inherit;
   line-height: normal;
   font-family: montserrat;
   color: #ffffff;
@@ -2085,6 +2112,7 @@ body > footer > div.container > div > div.footer-area-4.col-md-3.col-sm-6 > sect
         height: auto !important;
     }
 
+
     body .ptp-dg6-cta::after {
         display: none;
     }
@@ -2110,8 +2138,6 @@ header .container
 
 <link rel="stylesheet" href="http://askaig.bugsplat.com/wp-content/themes/pursuit/style.css">
 <script type="text/javascript" src="http://askaig.bugsplat.com/wp-content/themes/pursuit/assets/js/blogFixed.js"></script>
-<link href='./assets/overrides.css' rel='stylesheet' type='text/css'>
-<link href='./assets/home.css' rel='stylesheet' type='text/css'>
  </head>
 
 
@@ -2121,7 +2147,7 @@ header .container
 
 
 
-<header class="banner navbar navbar-default navbar-static-top" role="banner" >
+<header class="banner navbar navbar-default navbar-static-top" role="banner" data-transparent-header="true">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -2132,7 +2158,9 @@ header .container
             </button>
             <div id="logo">
                 <a href="http://askaig.bugsplat.com/">
-                                        <img class="logo-main logo-reg" src='http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crashreporting_darksmallerwidth_splat.png' height='48' width='171' alt="
+                                        <img class="logo-trans logo-reg" src='http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crashreporting_light_splatter.png' height='48' width='122' alt="
+                    BugSplat Software" />
+                                        <img class="logo-main logo-reg" src='http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crashreporting_dark_splat-1.png' height='48' width='122' alt="
                     BugSplat Software" />
                 </a>
             </div>
@@ -2164,7 +2192,7 @@ section#themo_page_header_1{background-image:url('http://askaig.bugsplat.com/wp-
 				<div class='container'>
 					<div class='row'>
 						<div class="page-title centered">
-							<h1 class='page-title-h1 '>Bug's don't stand<br>a chance. </h1>							<h4 class='page-title-h4 '>BugSplat's crash reporting allows you to discover, track, and fix bugs affecting all your users across your many platforms.</h4>                            <div class='page-title-button '><a href="/flyswatter_onboarding_accountregspage/" target='_self' class="btn btn-ghost   "        >Try for free</a></div>						</div>
+							<h1 class='page-title-h1 '>Bugs don't stand<br>a chance. </h1>							<h4 class='page-title-h4 '>BugSplat's crash reporting allows you to discover, track, and fix bugs affecting all your users across your many platforms.</h4>                            <div class='page-title-button '><a href="/flyswatter_onboarding_accountregspage/" target='_self' class="btn btn-ghost   "        >Try for free</a></div>						</div>
 					</div><!-- /.row -->
 				</div><!-- /.container -->
 			</section>
@@ -2468,7 +2496,7 @@ section#themo_html_3{background-color:#015fa9; background-image:url('http://aska
     margin-bottom: 2%;
 "></p>
 <div class="col-md-6">
-<img src="http://askaig.bugsplat.com/wp-content/uploads/2016/06/bugsplat_crash_report_dialogue_splat.png" alt="bugsplat_crash_report_dialogue_splat" width="400" class="aligncenter size-full wp-image-16317" srcset="http://askaig.bugsplat.com/wp-content/uploads/2016/06/bugsplat_crash_report_dialogue_splat.png 800w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/bugsplat_crash_report_dialogue_splat-300x285.png 300w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/bugsplat_crash_report_dialogue_splat-768x730.png 768w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/bugsplat_crash_report_dialogue_splat-51x48.png 51w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/bugsplat_crash_report_dialogue_splat-255x242.png 255w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/bugsplat_crash_report_dialogue_splat-84x80.png 84w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/bugsplat_crash_report_dialogue_splat-360x342.png 360w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/bugsplat_crash_report_dialogue_splat-500x475.png 500w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/bugsplat_crash_report_dialogue_splat-750x713.png 750w" sizes="(max-width: 800px) 100vw, 800px" /></p>
+<img src="/wp-content/uploads/2015/06/BugSplat_crash_dialogue_plain.png" alt="BugSplat_crash_dialogue_plain" width="400" class="aligncenter size-full wp-image-16328" srcset="http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_plain.png 800w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_plain-300x285.png 300w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_plain-768x730.png 768w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_plain-51x48.png 51w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_plain-255x242.png 255w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_plain-84x80.png 84w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_plain-360x342.png 360w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_plain-500x475.png 500w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_plain-750x713.png 750w" sizes="(max-width: 800px) 100vw, 800px" /></p>
 <p><center><underline><a href="/blog/">Click to learn more</a></underline></center>
 </div>
 <div class="col-md-6">
@@ -2681,4 +2709,4 @@ section#themo_html_5{background-image:url('http://askaig.bugsplat.com/wp-content
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
- Served from: askaig.bugsplat.com @ 2016-06-28 22:16:09 by W3 Total Cache -->
+ Served from: askaig.bugsplat.com @ 2016-07-04 04:25:42 by W3 Total Cache -->
