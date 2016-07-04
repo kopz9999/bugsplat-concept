@@ -1,0 +1,56 @@
+.navbar .navbar-nav {
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar .navbar-nav > li > a {
+    padding: 0 0 0 0;
+    margin: 0 0 0 15px;
+  }
+
+  header.banner {
+    max-height: 75px;
+  }
+
+  .navbar .navbar-nav > li > a:hover:after {
+    bottom: -5px;
+    margin-left: -8px;
+  }
+
+  .navbar .navbar-nav > li.menu-login a {
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 0.35em 0.5em 0.3em 0.5em;
+  }
+
+  .navbar .navbar-nav > li.menu-sign-up a {
+    box-shadow: 0px 0px 0px 0.2em #68B1F0;
+    background-color: #68B1F0;
+    border: 2px solid #ddefff;
+    border-radius: 6px;
+    padding: 0.35em 0.5em 0.3em 0.5em;
+  }
+
+  .navbar .navbar-nav > li.menu-login a, .navbar .navbar-nav > li.menu-sign-up a {
+    margin-top: -9px;
+  }
+
+  .navbar .navbar-nav > li.menu-login a:hover:after, .navbar .navbar-nav > li.menu-sign-up a:hover:after {
+    display: none;
+  }
+
+  .navbar .navbar-nav > li.menu-login a:hover, .navbar .navbar-nav > li.menu-sign-up a:hover {
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+  }
+
+  .navbar .navbar-nav > li.menu-login a:hover {
+    background-color: #68B1F0;
+  }
+
+  .navbar .navbar-nav > li.menu-sign-up a:hover {
+    border-color: #fff;
+  }
+}
