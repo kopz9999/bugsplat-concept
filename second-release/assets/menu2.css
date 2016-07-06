@@ -1,0 +1,12 @@
+@media only screen and (min-width: 768px) {
+  .navbar .navbar-nav > li > a {
+    font-size: 14px;
+  }
+  .navbar .navbar-nav > li.active > a:after, .navbar .navbar-nav > li.active > a:hover:after {
+    bottom: -5px;
+    margin-left: -10px;
+  }
+  .navbar .navbar-nav > li > a:hover:after {
+    margin-left: -10px;
+  }
+}
