@@ -111,6 +111,91 @@ h1, h2, h3, h4, h5, h6{color:#579bd2 ;}
 
 /* Custom Color CSS #68b1f0 */
 #main-flex-slider .slides h1,.accent,.light-text .btn-ghost:hover,.light-text .googlemap a,.light-text .pricing-column.highlight .btn-ghost:hover,.light-text .pricing-column.highlight .btn-standard,.navbar .navbar-nav .dropdown-menu li a:hover,.navbar .navbar-nav .dropdown-menu li.active a,.navbar .navbar-nav .dropdown-menu li.active a:hover,.page-title h1,.panel-title i,.pricing-column.highlight .btn-ghost:hover,.pricing-column.highlight .btn-standard,.pricing-cost,.simple-cta span,.team-member-social a .soc-icon:hover,a{color:#68b1f0}.footer .widget-title:after,.navbar .navbar-nav>li.active>a:after,.navbar .navbar-nav>li.active>a:focus:after,.navbar .navbar-nav>li.active>a:hover:after,.navbar .navbar-nav>li>a:hover:after{background-color:#68b1f0}.accordion .accordion-btn .btn-ghost:hover,.btn-ghost:hover,.btn-standard,.circle-lrg-icon i,.circle-lrg-icon span,.light-text .pricing-table .btn-ghost:hover,.pager li>a:hover,.pager li>span:hover,.pricing-column.highlight{background-color:#68b1f0;border-color:#68b1f0}.accordion .accordion-btn .btn-ghost,.btn-ghost,.circle-lrg-icon i:hover,.circle-lrg-icon span:hover,.light-text .pricing-table .btn-ghost{color:#68b1f0;border-color:#68b1f0}.search-form input:focus,.widget select:focus,form input:focus,form select:focus,form textarea:focus{border-color:#68b1f0!important}.circle-med-icon i,.circle-med-icon span,.frm_form_submit_style,.frm_form_submit_style:hover,.with_frm_style .frm_submit input[type=button],.with_frm_style .frm_submit input[type=button]:hover,.with_frm_style .frm_submit input[type=submit],.with_frm_style .frm_submit input[type=submit]:hover,.with_frm_style.frm_login_form input[type=submit],.with_frm_style.frm_login_form input[type=submit]:hover,form input[type=submit],form input[type=submit]:hover{background:#68b1f0}.footer .tagcloud a:hover,.headhesive--clone .navbar-nav>li.active>a:after,.headhesive--clone .navbar-nav>li.active>a:focus:after,.headhesive--clone .navbar-nav>li.active>a:hover:after,.headhesive--clone .navbar-nav>li>a:hover:after,.search-submit,.search-submit:hover,.simple-conversion .with_frm_style input[type=submit],.simple-conversion .with_frm_style input[type=submit]:focus,.simple-conversion form input[type=submit],.simple-conversion form input[type=submit]:focus,.widget .tagcloud a:hover{background-color:#68b1f0!important}.btn-cta{background-color:#24355a}
+/* Start formatting for main menu */
+
+.navbar-nav {
+    color: #24355a !important;
+    font-family: montserrat;
+    font-size: 17px;
+    /* My code for fixing color and size and font family in menu */
+}
+
+.navbar .navbar-nav {
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar .navbar-nav > li > a {
+    padding: 0 0 0 0;
+    margin: 0 0 0 15px;
+  }
+
+  header.banner {
+    max-height: 75px;
+  }
+
+  .navbar .navbar-nav > li > a:hover:after {
+    bottom: -5px;
+    margin-left: -8px;
+  }
+
+  .navbar .navbar-nav > li.menu-login a {
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 0.35em 0.5em 0.3em 0.5em;
+  }
+
+  .navbar .navbar-nav > li.menu-login a {
+    border: 2px solid #68b1f0;
+    border-radius: 6px;
+    padding: 0.35em 0.5em 0.3em 0.5em;
+    /* my code for dark menu compatability */
+}
+
+  .navbar .navbar-nav > li.menu-sign-up a {
+      color: #ffffff;
+      box-shadow: 0px 0px 0px 0.2em #68B1F0;
+      background-color: #68B1F0;
+      border: 2px solid #ddefff;
+      border-radius: 6px;
+      padding: 0.35em 0.5em 0.3em 0.5em;
+  }
+
+  .navbar .navbar-nav > li.menu-sign-up a {
+    box-shadow: 0px 0px 0px 0.2em #68B1F0;
+    background-color: #68B1F0;
+    border: 2px solid #ddefff;
+    border-radius: 6px;
+    padding: 0.35em 0.5em 0.3em 0.5em;
+    /* my code for dark menu compatability */
+  }
+
+  .navbar .navbar-nav > li.menu-login a, .navbar .navbar-nav > li.menu-sign-up a {
+    margin-top: -9px;
+  }
+
+  .navbar .navbar-nav > li.menu-login a:hover:after, .navbar .navbar-nav > li.menu-sign-up a:hover:after {
+    display: none;
+  }
+
+  .navbar .navbar-nav > li.menu-login a:hover, .navbar .navbar-nav > li.menu-sign-up a:hover {
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+  }
+
+  .navbar .navbar-nav > li.menu-login a:hover {
+    background-color: #68B1F0;
+  }
+
+  .navbar .navbar-nav > li.menu-sign-up a:hover {
+    border-color: #fff;
+  }
+}
+
+/* End formatting for main menu */
+
 /* Start formatting for call to action on pricing */
 
 .page-id-8118 .simple-cta .btn {
@@ -2137,7 +2222,6 @@ header .container
 
 <link rel="stylesheet" href="http://askaig.bugsplat.com/wp-content/themes/pursuit/style.css">
 <script type="text/javascript" src="http://askaig.bugsplat.com/wp-content/themes/pursuit/assets/js/blogFixed.js"></script>
-<link rel="stylesheet" href="./assets/menu.css">
  </head>
 
 
@@ -2249,7 +2333,7 @@ section#themo_html_1{padding-top:30px; padding-bottom:30px} </style>
 <div class="float-img col-sm-6">
 <div class="center-table-con">
 <div class="center-table-cell ">
-                             <img src="/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue.png" alt="BugSplat_crash_report_dialogue" width="800" class="aligncenter size-full wp-image-16330" srcset="http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue.png 1000w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-300x170.png 300w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-768x435.png 768w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-85x48.png 85w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-255x144.png 255w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-141x80.png 141w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-360x204.png 360w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-500x283.png 500w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-750x425.png 750w" sizes="(max-width: 1000px) 100vw, 1000px" />
+                             <img src="http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue.png" alt="BugSplat_crash_report_dialogue" width="800" class="aligncenter size-full wp-image-16330" srcset="http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue.png 1000w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-300x170.png 300w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-768x435.png 768w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-85x48.png 85w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-255x144.png 255w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-141x80.png 141w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-360x204.png 360w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-500x283.png 500w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_report_dialogue-750x425.png 750w" sizes="(max-width: 1000px) 100vw, 1000px" />
                              </div>
 </div>
 </div>
@@ -2279,7 +2363,7 @@ section#themo_html_1{padding-top:30px; padding-bottom:30px} </style>
 <div class="float-img col-sm-6">
 <div class="center-table-con">
 <div class="center-table-cell ">
-                           <img src="/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash.png" alt="BugSplat_crash_dialogue_all_crash" width="800" class="aligncenter size-full wp-image-16329" srcset="http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash.png 1000w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-300x170.png 300w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-768x435.png 768w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-85x48.png 85w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-255x144.png 255w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-141x80.png 141w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-360x204.png 360w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-500x283.png 500w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-750x425.png 750w" sizes="(max-width: 1000px) 100vw, 1000px" />
+                           <img src="http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash.png" alt="BugSplat_crash_dialogue_all_crash" width="800" class="aligncenter size-full wp-image-16329" srcset="http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash.png 1000w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-300x170.png 300w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-768x435.png 768w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-85x48.png 85w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-255x144.png 255w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-141x80.png 141w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-360x204.png 360w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-500x283.png 500w, http://askaig.bugsplat.com/wp-content/uploads/2015/06/BugSplat_crash_dialogue_all_crash-750x425.png 750w" sizes="(max-width: 1000px) 100vw, 1000px" />
                              </div>
 </div>
 </div>
@@ -2397,7 +2481,7 @@ It doesn’t matter if you’re an <u><a href="/how-moonman-uses-crash-reporting
 </p></div>
 <div class="col-xs-3 col-xs-offset-1">
             <a href="/Documents/os-x-applications/"><br />
-              <img src="/wp-content/uploads/2016/06/osx_crashreporting_bugsplat.png" alt="osx_crashreporting_bugsplat" width="150" class="aligncenter size-full wp-image-15909" srcset="http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat.png 300w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat-150x150.png 150w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat-47x47.png 47w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat-255x255.png 255w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat-80x80.png 80w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat-60x60.png 60w" sizes="(max-width: 300px) 100vw, 300px" /><br />
+              <img src="http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat.png" alt="osx_crashreporting_bugsplat" width="150" class="aligncenter size-full wp-image-15909" srcset="http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat.png 300w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat-150x150.png 150w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat-47x47.png 47w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat-255x255.png 255w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat-80x80.png 80w, http://askaig.bugsplat.com/wp-content/uploads/2016/06/osx_crashreporting_bugsplat-60x60.png 60w" sizes="(max-width: 300px) 100vw, 300px" /><br />
             </a></p>
 <p style="text-align:center;">OS X</p>
 </p></div>
@@ -2662,4 +2746,4 @@ section#themo_html_3{background-color:#68b1f0;} section#themo_html_3{padding-top
 
 <!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
 
- Served from: askaig.bugsplat.com @ 2016-07-04 04:38:01 by W3 Total Cache -->
+ Served from: askaig.bugsplat.com @ 2016-07-05 23:31:25 by W3 Total Cache -->
